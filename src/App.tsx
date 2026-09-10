@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from 'react';
+import { Suspense, useState } from 'react';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner';
 import Services from './components/Services';
@@ -22,7 +22,7 @@ const App = () => {
 
     return (
         <>
-        <Navbar cart = {cart} setCart = {setCart} />
+        <Navbar cart = {cart} />
         <Banner/>
         <Services/>
         <Cart cart = {cart}></Cart>

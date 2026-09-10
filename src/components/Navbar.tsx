@@ -2,14 +2,14 @@ import { FaCartPlus } from "react-icons/fa"
 import { IoMdSearch } from "react-icons/io"
 import Logo from "../assets/nav-logo.png"
 import type { IPopularProduct } from "../types";
-import type { Dispatch, SetStateAction } from "react";
+// import type { Dispatch, SetStateAction } from "react";
 
 interface INavbarProps {
     cart : IPopularProduct[];
-    setCart : Dispatch<SetStateAction<IPopularProduct[]>>;
+    // setCart : Dispatch<SetStateAction<IPopularProduct[]>>;
 }
 
-const Navbar = ({cart, setCart} : INavbarProps) => {
+const Navbar = ({cart} : INavbarProps) => {
     return (
         <div className = " border-b border-gray-300">
             <nav className= "flex justify-between gap-4 container mx-auto py-4 ">

@@ -1,4 +1,4 @@
-import React, { type Dispatch, type SetStateAction } from 'react';
+import { type Dispatch, type SetStateAction } from 'react';
 import type { IPopularProduct } from '../types';
 import { Bounce, toast } from 'react-toastify';
 

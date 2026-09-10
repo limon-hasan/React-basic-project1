@@ -1,4 +1,3 @@
-import React from 'react';
 import ServiceImage from "../assets/service.png"
 
 const Services = () => {

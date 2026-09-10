@@ -51,7 +51,7 @@ const PopularProductsWithUseEffect = ({cart, setCart} : IPopularProductWithUseEf
                     popularProducts.map((product) => {
                     console.log(product, "prooo")
                         return(
-                            <PopularProductCard key = {product.title} product = {product} 
+                            <PopularProductCard product = {product} 
                             cart = {cart} setCart={setCart}></PopularProductCard>
                         )       
                     })
